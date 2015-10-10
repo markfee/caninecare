@@ -1,0 +1,10 @@
+#!/bin/bash
+for file in $(ls images2/ | sed 's/.jpg//')
+do
+  echo "$file"
+  convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% -resize 1920 images2/"$file".jpg images/"$file"-1920.jpg
+  convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% -resize 1600 images2/"$file".jpg images/"$file"-1600.jpg
+  convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% -resize 960  images2/"$file".jpg images/"$file"-960.jpg
+  convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% -resize 640  images2/"$file".jpg images/"$file"-640.jpg
+  convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% -resize 480  images2/"$file".jpg images/"$file"-480.jpg
+done
