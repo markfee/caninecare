@@ -53,7 +53,7 @@
 
     		<!-- One -->
 				<section id="about-us" class="spotlight style1 bottom" >
-					<span class="image fit main"><img src="images/canine-care-dogs-in-garden-.jpg" alt="" /></span>
+					<span class="image fit main"><img src="images/canine-care-dogs-in-garden-1920.jpg" alt="" /></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
@@ -84,7 +84,7 @@
 
 			<!-- Two -->
 				<section id="services" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/canine-care-dog-in-sea-cropped.jpg" alt="" /></span>
+					<span class="image fit main"><img src="images/canine-care-dog-in-sea-cropped-1920.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Canine Care provides a professional, friendly dog care service</h2>
@@ -109,7 +109,7 @@
 
 			<!-- Three -->
             <section id="dog-walking" class="spotlight style3 top">
-                <span class="image fit main bottom"><img src="images/canine-care-jack-russell-on-beach-.jpg" alt="" /></span>
+                <span class="image fit main bottom"><img src="images/canine-care-jack-russell-on-beach-1920.jpg" alt="" /></span>
                 <div class="content">
                     <header>
                         <h2>Dog Walking</h2>
@@ -128,7 +128,7 @@
             </section>
 
             <section id="day-care" class="spotlight style3 top">
-                <span class="image fit main bottom"><img src="images/canine-care-sleeping-dogs.jpg" alt="" /></span>
+                <span class="image fit main bottom"><img src="images/canine-care-sleeping-dogs-1920.jpg" alt="" /></span>
                 <div class="content">
                     <header>
                         <h2>Day Care</h2>
@@ -156,7 +156,7 @@
             </section>
 
             <section id="home-boarding" class="spotlight style3 left">
-                <span class="image fit main bottom"><img src="images/canine-care-dogs-on-beach-.jpg" alt="" /></span>
+                <span class="image fit main bottom"><img src="images/canine-care-dogs-on-beach-1920.jpg" alt="" /></span>
                 <div class="content">
                     <header>
                         <h2>Home Boarding</h2>
@@ -177,7 +177,7 @@
             </section>
 
             <section id="behaviour-advice" class="spotlight style3 right">
-                <span class="image fit main bottom"><img src="images/canine-care-sleeping-dogs.jpg" alt="" /></span>
+                <span class="image fit main bottom"><img src="images/canine-care-sleeping-dogs-1920.jpg" alt="" /></span>
                 <div class="content">
                     <header>
                         <h2>Behaviour Advice</h2>
@@ -200,7 +200,7 @@
             </section>
 
             <section id="dog-socialisation" class="spotlight style3 left">
-                <span class="image fit main bottom"><img src="images/canine-care-dogs-on-beach-.jpg" alt="" /></span>
+                <span class="image fit main bottom"><img src="images/canine-care-dogs-on-beach-1920.jpg" alt="" /></span>
                 <div class="content">
                     <header>
                         <h2>Puppy and Dog Socialisation</h2>
@@ -325,6 +325,21 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+        <script type="application/javascript">
+
+            $(function() {
+                var newSize = screen.width > 1600 ? 1920
+                        : screen.width > 960 ? 1600
+                        : screen.width > 640 ? 960
+                        : screen.width > 480 ? 640
+                        : "480";
+                if (newSize < 1920 ) {
+                    $("img").each(function() {
+                        $(this).attr("src", $(this).attr("src").replace("1920", newSize));
+                    });
+                }
+            });
+        </script>
 
 	</body>
 </html>

@@ -3353,12 +3353,9 @@
 /* Banner */
 
 	#banner {
-		/*background-attachment: fixed;*/
-		/*background-color: #272833;*/
-		/*background-image: url("../../images/banner.jpg");*/
-        background-image: url("../../images/canine-care-bella-roman-camps.jpg");
-		/*background-position: bottom 25px;*/
-        /*background-position: right 200px top;*/
+		background-attachment: fixed;
+		background-color: #272833;
+        background-image: url("../../images/canine-care-bella-roman-camps-1920.jpg");
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
@@ -4005,6 +4002,11 @@
 			#banner .content {
 				padding: 3em 1.5625em 5.25em 1.5625em;
 			}
+
+        #banner {
+            background-attachment: scroll;
+        }
+
 
 		/* Footer */
 
