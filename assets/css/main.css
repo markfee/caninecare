@@ -74,9 +74,8 @@ body {
   background-image: url("../../images/canine-care-logo-110.png");
 }
 
-@media screen and (max-width: 1680px) {{
-
-}  .container.\31 25\25 {
+@media screen and (max-width: 1680px) {
+  .container.\31 25\25 {
     width: 100%;
     max-width: 87.5em;
     min-width: 70em;
@@ -103,9 +102,8 @@ body {
           background-image: url("../../images/canine-care-logo-220.png") !important;
     } }
 
-@media screen and (max-width: 1280px) {{
-
-}  .container.\31 25\25 {
+@media screen and (max-width: 1280px) {
+  .container.\31 25\25 {
     width: 100%;
     max-width: 112.5%;
     min-width: 90%;
@@ -132,9 +130,8 @@ body {
           background-image: url("../../images/canine-care-logo-220.png") !important;
     } }
 
-@media screen and (max-width: 980px) {{
-
-}  .container.\31 25\25 {
+@media screen and (max-width: 980px) {
+  .container.\31 25\25 {
     width: 100%;
     max-width: 125%;
     min-width: 100%;
@@ -162,9 +159,8 @@ body {
     }
 }
 
-@media screen and (max-width: 736px) {{
-
-}  .container.\31 25\25 {
+@media screen and (max-width: 736px) {
+  .container.\31 25\25 {
     width: 100%;
     max-width: 125%;
     min-width: 100%;
@@ -187,9 +183,8 @@ body {
 }
 }
 
-@media screen and (max-width: 480px) {{
-
-}  .container.\31 25\25 {
+@media screen and (max-width: 480px) {
+  .container.\31 25\25 {
     width: 100%;
     max-width: 125%;
     min-width: 100%;
@@ -416,9 +411,8 @@ body {
 .\-1u {
   margin-left: 8.33333%; }
 
-@media screen and (max-width: 1680px) {{
-
-}  .row > * {
+@media screen and (max-width: 1680px) {
+  .row > * {
     padding: 0 0 0 2.5em;
 }
 
@@ -630,9 +624,8 @@ body {
 }
 }
 
-@media screen and (max-width: 1280px) {{
-
-}  .row > * {
+@media screen and (max-width: 1280px) {
+  .row > * {
     padding: 0 0 0 2.5em;
 }
 
@@ -844,9 +837,8 @@ body {
 }
 }
 
-@media screen and (max-width: 980px) {{
-
-}  .row > * {
+@media screen and (max-width: 980px) {
+  .row > * {
     padding: 0 0 0 2.5em;
 }
 
@@ -1058,9 +1050,8 @@ body {
 }
 }
 
-@media screen and (max-width: 736px) {{
-
-}  .row > * {
+@media screen and (max-width: 736px) {
+  .row > * {
     padding: 0 0 0 2.5em;
 }
 
@@ -1272,9 +1263,8 @@ body {
 }
 }
 
-@media screen and (max-width: 480px) {{
-
-}  .row > * {
+@media screen and (max-width: 480px) {
+  .row > * {
     padding: 0 0 0 2.5em;
 }
 
@@ -1983,9 +1973,8 @@ body.landing {
     z-index: 100000;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) {{
-
-}  body.landing:before {
+@media (-webkit-min-device-pixel-ratio: 2) {
+  body.landing:before {
     line-height: 2.025em;
 }
 }
@@ -3311,18 +3300,16 @@ body.is-touch #banner {
    }
 
 /* XLarge */
-@media screen and (max-width: 1680px) {{
-
-}  /* Basic */
+@media screen and (max-width: 1680px) {
+  /* Basic */
       body, input, select, textarea {
       font-size: 13pt;
  }
 }
 
 /* Large */
-@media screen and (max-width: 1280px) {{
-
-}  /* Basic */
+@media screen and (max-width: 1280px) {
+  /* Basic */
       body, input, select, textarea {
       font-size: 11.5pt;
  }
@@ -3363,9 +3350,8 @@ body.is-touch #banner {
 }
 
 /* Medium */
-@media screen and (max-width: 980px) {{
-
-}  /* Basic */
+@media screen and (max-width: 980px) {
+  /* Basic */
       body, input, select, textarea {
       font-size: 12pt;
  }
@@ -3440,9 +3426,8 @@ body.is-touch #banner {
 #navPanel, #titleBar {
   display: none; }
 
-@media screen and (max-width: 736px) {{
-
-}  /* Basic */
+@media screen and (max-width: 736px) {
+  /* Basic */
       html, body {
       overflow-x: hidden;
  }
@@ -3724,9 +3709,8 @@ body.is-touch #banner {
 }
 
 /* XSmall */
-@media screen and (max-width: 480px) {{
-
-}  /* Basic */
+@media screen and (max-width: 480px) {
+  /* Basic */
       html, body {
       min-width: 320px;
  }
