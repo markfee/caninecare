@@ -4,7 +4,11 @@ module.exports = function(grunt) {
         sass: {                              // Task
             dist: {                          // Target
                 files: [{                     // Dictionary of files
-                    'assets/sass/main.css': 'assets/sass/main.scss'
+                    expand: true,
+                    cwd: 'assets/sass',
+                    src: ['*.scss'],
+                    dest: 'assets/css/',
+                    ext: ".css"
                 }]
             }
         }
