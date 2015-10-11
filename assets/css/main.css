@@ -85,6 +85,17 @@
 		width: 70em;
 	}
 
+    .logo    {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width:110px ;
+        height:110px ;
+        background-image: url("../../images/canine-care-logo-110.png");
+
+    }
+
+
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
@@ -108,7 +119,11 @@
 		.container {
 			width: 70em;
 		}
-
+        .logo {
+            width:220px     !important;
+            height:220px    !important;
+            background-image: url("../../images/canine-care-logo-220.png") !important;
+        }
 	}
 
 	@media screen and (max-width: 1280px) {
@@ -135,11 +150,10 @@
 			width: 90%;
 		}
         .logo {
-            width:110px !important;
-            height:110px !important;
-            background-image: url("../../images/canine-care-logo-110.png") !important;
+            width:220px     !important;
+            height:220px    !important;
+            background-image: url("../../images/canine-care-logo-220.png") !important;
         }
-
 	}
 
 	@media screen and (max-width: 980px) {
@@ -165,6 +179,11 @@
 		.container {
 			width: 100% !important;
 		}
+        .logo {
+            width:110px     !important;
+            height:110px    !important;
+            background-image: url("../../images/canine-care-logo-110.png") !important;
+        }
 
 	}
 
@@ -2507,12 +2526,6 @@
         .image-transparent:before {
             background-image: none;
         }
-        .logo {
-            width:220px;
-            height:220px;
-            background-image: url("../../images/canine-care-logo-220.png");
-            float: left;
-        }
 
 /* List */
 
@@ -3277,8 +3290,8 @@
 	}
 
 	#header {
-		/*background: rgba(39, 40, 51, 0.965);*/
-		/*box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);*/
+		background: rgba(39, 40, 51, 0.965);
+		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
 		left: 0;
@@ -3356,7 +3369,7 @@
 		background-attachment: fixed;
 		background-color: #272833;
         background-image: url("../../images/canine-care-bella-roman-camps-1920.jpg");
-		background-size: cover;
+        background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
 		position: relative;
@@ -3379,7 +3392,7 @@
             background-image: linear-gradient(top, rgba(23, 24, 32, 0.50), rgba(23, 24, 32, 0.50)), url("images/overlay.png");;
 			content: '';
 			display: block;
-			height: 25vh;
+			height: 114px;
 			left: 0;
 			position: absolute;
 			top: 0;
@@ -4025,4 +4038,57 @@
 						padding: 0;
 					}
 
-	}
+    }
+
+.showres {
+    position: absolute; !important;
+    top: 10px;  !important;
+    left:200px;   !important;
+    height: 10px;   !important;
+    z-index: 99999999;
+
+}
+@media screen and (max-width: 3000px) {
+    .showres:before {
+        content: "BIGGEST";
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .showres:before {
+        content: "1680";
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .showres:before {
+        content: "1280";
+    }
+    #banner {        background-image: url("../../images/canine-care-bella-roman-camps-1600.jpg"); }
+
+}
+
+@media screen and (max-width: 980px) {
+    .showres:before {
+        content: "980";
+    }
+    #banner {        background-image: url("../../images/canine-care-bella-roman-camps-960.jpg");
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .showres:before {
+        content: "736";
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .showres:before {
+        content: "480";
+    }
+    #banner {        background-image: url("../../images/canine-care-bella-roman-camps-480.jpg"); }
+
+}
