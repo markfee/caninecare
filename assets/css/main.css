@@ -2935,6 +2935,16 @@ body.is-touch #banner {
   background-image: url("../../images/canine-care-logo-110.png"); }
   .logo:before {
     background-image: none !important; }
+  @media screen and (max-width: 980px) {
+    .logo {
+      width: 44px;
+      height: 44px;
+      background-image: url("../../images/canine-care-logo-44.png");
+      position: absolute;
+      left: 2px; } }
+  @media screen and (max-width: 736px) {
+    .logo {
+      left: 50px; } }
 
 .showres {
   position: absolute !important;
@@ -2952,43 +2962,60 @@ body.is-touch #banner {
     content: "1680"; } }
 @media screen and (max-width: 1280px) {
   .showres:before {
-    content: "1280"; }
-
-  #banner {
-    background-image: url("../../images/canine-care-bella-roman-camps-1600.jpg"); } }
+    content: "1280"; } }
 @media screen and (max-width: 980px) {
   .showres:before {
-    content: "980"; }
-
-  #banner {
-    background-image: url("../../images/canine-care-bella-roman-camps-960.jpg");
-    background-size: auto;
-    background-repeat: no-repeat; } }
+    content: "980"; } }
 @media screen and (max-width: 736px) {
   .showres:before {
     content: "736"; } }
 @media screen and (max-width: 480px) {
   .showres:before {
-    content: "480"; }
+    content: "480"; } }
+@media screen and (max-height: 480px) {
+  .showres:before {
+    content: "480"; } }
 
-  #banner {
-    background-image: url("../../images/canine-care-bella-roman-camps-480.jpg"); } }
+#header h1 {
+  left: 0px; }
+  @media screen and (max-width: 980px) {
+    #header h1 {
+      left: 50px; }
+      #header h1 .logo {
+        left: -50px; } }
+
+#banner {
+  background-image: url("../../images/canine-care-bella-roman-camps-1920.jpg"); }
+  #banner .content {
+    padding: 0px 0px 0px 200px;
+    text-align: left; }
+    @media screen and (max-width: 980px) {
+      #banner .content header h2 {
+        font-size: 2em; } }
+    @media screen and (max-width: 736px) {
+      #banner .content header h2 {
+        font-size: 1.25em; } }
+  @media screen and (max-width: 1280px) {
+    #banner {
+      background-image: url("../../images/canine-care-bella-roman-camps-1600.jpg"); } }
+  @media screen and (max-width: 980px) {
+    #banner {
+      background-image: url("../../images/canine-care-bella-roman-camps-960.jpg");
+      background-size: auto;
+      background-repeat: no-repeat; } }
+  @media screen and (max-width: 736px) {
+    #banner {
+      background-image: url("../../images/canine-care-bella-roman-camps-736.jpg"); } }
+  @media screen and (max-width: 480px) {
+    #banner {
+      background-image: url("../../images/canine-care-bella-roman-camps-480.jpg"); } }
+  @media screen and (max-height: 480px) {
+    #banner {
+      background-image: url("../../images/canine-care-bella-roman-camps-480.jpg"); } }
+
 .goto-prev {
   top: 0; }
   .goto-prev:before {
     background-image: url("images/previous.svg") !important; }
-
-#banner {
-  background-image: url("../../images/canine-care-bella-roman-camps-1920.jpg");
-  /*  &:before {
-      height: 0px;
-      width: 100px;
-    }
-    &:after {
-      height: 114px;
-    }*/ }
-  #banner .content {
-    padding: 0px 0px 0px 200px;
-    text-align: left; }
 
 /*# sourceMappingURL=main.css.map */
