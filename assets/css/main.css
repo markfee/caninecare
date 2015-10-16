@@ -3018,4 +3018,9 @@ body.is-touch #banner {
   .goto-prev:before {
     background-image: url("images/previous.svg") !important; }
 
+ul.alt a {
+  color: white; }
+  ul.alt a:hover {
+    color: darkblue !important; }
+
 /*# sourceMappingURL=main.css.map */

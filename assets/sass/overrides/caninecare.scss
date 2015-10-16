@@ -107,3 +107,12 @@
     background-image: url("images/previous.svg") !important;
   }
 }
+
+ul.alt {
+  a {
+    color: white;
+    &:hover {
+      color: darkblue !important;
+    }
+  }
+}
